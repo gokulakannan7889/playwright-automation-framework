@@ -16,7 +16,7 @@ module.exports = defineConfig({
   ],
 
   use: {
-    baseURL: process.env.BASE_URL || 'https://demo.playwright.dev/todomvc',
+    baseURL: process.env.BASE_URL || 'https://eviltester.github.io/simpletodolist/',
     trace: 'on-first-retry',
     screenshot: 'only-on-failure',
     video: 'retain-on-failure',
