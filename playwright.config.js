@@ -16,7 +16,7 @@ module.exports = defineConfig({
   ],
 
   use: {
-    baseURL: process.env.BASE_URL || 'https://eviltester.github.io/simpletodolist/',
+    baseURL: process.env.BASE_URL || 'https://todomvc.com/examples/react/dist/',
     trace: 'on-first-retry',
     screenshot: 'only-on-failure',
     video: 'retain-on-failure',
